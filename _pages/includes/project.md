@@ -7,13 +7,8 @@ I am Ziyi Zhao, currently working at [CVLab, EPFL](https://www.epfl.ch/labs/cvla
 My primary research interests include **deep learning** and its applications in **computer vision**, with a focus on **medical imaging** and pose related stuff including 3D human and 6D drone poses. I have published 2 papers 
 <a href='https://scholar.google.com/citations?user=BxGCRwoAAAAJ'> <img src="https://img.shields.io/endpoint? ogo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FJacoo-Zhao%2Fjacoo-zhao.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> in the field of Human Motion Modelling and Music Generation.
 
-<<<<<<< Updated upstream
-## test
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
-=======
 
 ##### Education
 * 2022/02 - 2022/12  &nbsp; Exchange, &nbsp; École polytechnique fédérale de Lausanne (EPFL) &nbsp;  @Lsuanee, Switzerland 
 * 2020/09 - 2023/06 &nbsp; Master, &nbsp; Tongji Univerisity &nbsp; @Shanghai, China
 * 2016/09 - 2020/06 &nbsp; Bachelor of Engineering, &nbsp; Jilin Univerisity &nbsp; @Jilin, China  
->>>>>>> Stashed changes
