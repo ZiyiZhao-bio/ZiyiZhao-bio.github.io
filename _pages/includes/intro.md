@@ -1,7 +1,7 @@
 
 Hi there!&nbsp;&nbsp;
 
-I am Ziyi Zhao, currently working at [CVLab, EPFL](https://www.epfl.ch/labs/cvlab/) <img src=https://seeklogo.com/images/E/epfl-ecole-polytechnique-federale-de-lausanne-logo-8FDBAC06DE-seeklogo.com.png width=5.5%/>  &nbsp;as an exchange studnet.
+I am Ziyi Zhao, currently working at [CVLab, EPFL](https://www.epfl.ch/labs/cvlab/) <img src='images/logo-epfl.png' width=5.5%/>  &nbsp;as an exchange studnet.
 
 
 My primary research interests include **deep learning** and its applications in **computer vision**, with a focus on **medical imaging** and pose related stuff including 3D human and 6D drone poses. I have published 2 papers 
