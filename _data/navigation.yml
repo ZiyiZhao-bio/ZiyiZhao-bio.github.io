@@ -25,4 +25,5 @@ main:
     url: "/#-hobbies"
 
   - title: "CV"
-    url: "../docs/Ziyi_Zhao-CV.pdf"
+    url: /cv/"
+  
