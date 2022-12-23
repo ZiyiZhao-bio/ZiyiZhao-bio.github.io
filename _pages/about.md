@@ -9,15 +9,15 @@ redirect_from:
 ---
 
 <span class='anchor' id='about-me'></span>
-{% include_relative intro.md %}
+{% include_relative includes/intro.md %}
 
-{% include_relative news.md %}
+{% include_relative includes/news.md %}
 
-{% include_relative publication.md %}
+{% include_relative includes/publication.md %}
 
-{% include_relative honors.md %}
+{% include_relative includes/honors.md %}
 
-{% include_relative others.md %}
+{% include_relative includes/others.md %}
 
 
 If you like the template of this homepage, welcome to star and fork the author renyi's open-sourced template version [AcadHomepage ![](https://img.shields.io/github/stars/RayeRen/acad-homepage.github.io?style=social)](https://github.com/RayeRen/acad-homepage.github.io).
