@@ -17,7 +17,6 @@ redirect_from:
 
 {% include_relative includes/honors.md %}
 
-{% include_relative includes/others.md %}
 
 
 If you like the template of this homepage, welcome to star and fork the author renyi's open-sourced template version [AcadHomepage ![](https://img.shields.io/github/stars/RayeRen/acad-homepage.github.io?style=social)](https://github.com/RayeRen/acad-homepage.github.io).
