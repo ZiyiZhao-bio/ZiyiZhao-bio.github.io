@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Jacoo Zhao 赵子祎"
-  avatar           : "images/jacoo-profile"
+  avatar           : "images/jacoo-profile.png"
   bio              : "Tongji Univeristy"
   location         : "Shanghai, China"
   employer         :
