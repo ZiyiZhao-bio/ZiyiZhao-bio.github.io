@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Ziyi Zhao 赵子祎"
-description              : "3rd Year Master, Computer Vision."
+description              : "3rd-year Master, Computer Vision."
 repository               : "Jacoo-zhao/jacoo-zhao.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Jacoo Zhao 赵子祎"
+  name             : "Ziyi Zhao 赵子祎"
   avatar           : "images/jacoo-profile.png"
   bio              : "Tongji Univeristy"
   location         : "Shanghai, China"
