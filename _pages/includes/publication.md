@@ -1,8 +1,5 @@
 
-# 📝 Publications 
-
-</div>
-</div>
+# Publications
 
 - [3D Pose Based Feedback For Physical Exercises.](https://github.com/Jacoo-Zhao/3D-Pose-Based-Feedback-For-Physical-Exercises) Ziyi Zhao, Sena Kiciroglu, Hugues Vinzant, Yuan Cheng, Isinsu Katircioglu, Mathieu Salzmann, Pascal Fua. **ACCV 2022**.
 
