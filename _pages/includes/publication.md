@@ -1,10 +1,3 @@
-
-# Publications
-
-- [3D Pose Based Feedback For Physical Exercises.](https://github.com/Jacoo-Zhao/3D-Pose-Based-Feedback-For-Physical-Exercises) Ziyi Zhao, Sena Kiciroglu, Hugues Vinzant, Yuan Cheng, Isinsu Katircioglu, Mathieu Salzmann, Pascal Fua. **ACCV 2022**.
-
-- [A Review of Intelligent Music Generation Systems.](https://arxiv.org/abs/2211.09124) Ziyi Zhao, Hanwei Liu, Song Li, Junwei Pang, Maoqing Zhang, Yi Qin, Lei Wang, Qidi Wu.(2022). **arXiv** *preprint arXiv:2211.09124.*
-
 # Publications
 
 ## Human Motion Correction
@@ -24,7 +17,7 @@
 
 ## Music Generation
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2019</div><img src='images/MG.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/MG.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [A Review of Intelligent Music Generation Systems](https://arxiv.org/pdf/2211.09124.pdf) \\

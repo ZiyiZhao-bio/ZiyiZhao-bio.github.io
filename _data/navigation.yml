@@ -9,17 +9,14 @@ main:
   - title: "Publication"
     url: "/#-publication"
 
-  - title: "Projects"
-    url: "/#-project"
+  # - title: "Projects"
+  #   url: "/#-project"
 
-  - title: "Internship"
-    url: "/#-internship"
+  # - title: "Internship"
+  #   url: "/#-internship"
 
-  - title: "Honor"
-    url: "/#-honor"
+  # - title: "Honor"
+  #   url: "/#-honor"
 
-  - title: "Service"
-    url: "/#-service"
-
-  - title: "CV"
-    url: "/cv/Ziyi_Zhao_CV.pdf"
+  # - title: "CV"
+  #   url: "/cv/Ziyi_Zhao_CV.pdf"
