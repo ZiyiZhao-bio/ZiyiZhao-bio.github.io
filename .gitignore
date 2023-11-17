@@ -1,3 +1,10 @@
 _site/
 push.sh
 .DS_Store
+/.idea/.gitignore
+/.idea/Jacoo-Zhao.github.io.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/vcs.xml

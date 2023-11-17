@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Ziyi Zhao 赵子祎"
-description              : "3rd-year Master, Computer Vision."
+description              : "Ph.D Student, Computer Science."
 repository               : "Jacoo-zhao/jacoo-zhao.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -29,7 +29,7 @@ author:
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=BxGCRwoAAAAJ"
-  email            : "Zhaozi1@tongji.edu.cn"
+  email            : "zhaozyzyq@gmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
