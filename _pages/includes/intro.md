@@ -8,8 +8,12 @@ In June 2023, I earned my Master's degree from the School of Electronic and Info
 
 My research interest is centered on **computer vision** and **generative AI**, I am enthusiastic about delving into the fascinating realms of **motion generation** research and **diffusion models**, and I look forward to contributing meaningfully to these fields during my Ph.D. journey at UTS. 
 
-I have published 2 papers
-<a href='https://scholar.google.com/citations?user=BxGCRwoAAAAJ'><img src="https://img.shields.io/endpoint? ogo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FJacoo-Zhao%2Fjacoo-zhao.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> in the field of Human Motion Modelling and Music Generation. Besides, I also hold a patent for an invention.
+I have published 2 papers in the field of Human Motion Modelling and Music Generation. Besides, I also hold a patent for an invention.
+
+[//]: # (I have published 2 papers)
+
+[//]: # (<a href='https://scholar.google.com/citations?user=BxGCRwoAAAAJ'><img src="https://img.shields.io/endpoint? ogo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FJacoo-Zhao%2Fjacoo-zhao.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> in the field of Human Motion Modelling and Music Generation. Besides, I also hold a patent for an invention.)
+
 
 # Education
 * 2024.05 - 2027.12   &nbsp; Ph.D., &nbsp;University of Technology Sydney (UTS) &nbsp;  @Sydney, Australia
