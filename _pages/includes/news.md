@@ -1,4 +1,4 @@
-## 🗞️ News
+##  News
 
 - **Oct. 12, 2024** &nbsp; — Founded [**Palm Stream Pty Ltd**](https://palmstream.net), a startup focused on health and longevity technologies.  
   👉 Visit the website: [palmstream.net](https://palmstream.net)
