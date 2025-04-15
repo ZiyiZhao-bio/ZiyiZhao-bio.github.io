@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "Ziyi Zhao 赵子祎"
 description              : "Ph.D Student, Computer Science."
-repository               : "Jacoo-zhao/jacoo-zhao.github.io"
+repository               : "ZiyiZhao-bio/ZiyiZhao-bio.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -24,7 +24,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Ziyi Zhao 赵子祎"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "University of Technology Sydney"
+  bio              : "University of Technology Sydney (UTS)"
   location         : "Sydney, Australia"
   employer         :
   pubmed           : 
@@ -38,7 +38,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "Jacoo-Zhao"
+  github           : "ZiyiZhao-bio"
   google_plus      :
   keybase          :
   instagram        :
