@@ -8,12 +8,21 @@ redirect_from:
   - /about.html
 ---
 
+<!-- 🔖 页面锚点：用于导航跳转 -->
 <span class='anchor' id='about-me'></span>
-{% include_relative includes/intro.md %}
 
+<!-- 👤 关于我 -->
+{% include_relative includes/about_me.md %}
+
+<!-- 🎓 教育经历 -->
+{% include_relative includes/education.md %}
+
+<!-- 🗞️ 最新动态 -->
 {% include_relative includes/news.md %}
 
+<!-- 📚 学术成果 -->
 {% include_relative includes/publication.md %}
 
+---
 
-If you like the template of this homepage, welcome to star and fork my open-sourced template version [AcadHomepage ![](https://img.shields.io/github/stars/RayeRen/acad-homepage.github.io?style=social)](https://github.com/RayeRen/acad-homepage.github.io).
+<small class="last-updated">🕒 Last updated: Apr 2025</small>

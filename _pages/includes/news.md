@@ -1,16 +1,20 @@
-# News
+## 🗞️ News
 
-- *2023 Feb.10*: &nbsp; Start the final semester at Tongji University.
+- **Oct. 12, 2024** &nbsp; — Founded [**Palm Stream Pty Ltd**](https://palmstream.net), a startup focused on health and longevity technologies.  
+  👉 Visit the website: [palmstream.net](https://palmstream.net)
 
-- *2022 Dec.29*: &nbsp; Fly back to China.
+- **Jan. 1, 2024** &nbsp; — Officially enrolled as a Ph.D. student at **University of Technology Sydney (UTS)**.
 
-- *2022 Dec.04 - Dec.08 2022*: &nbsp; Virtual participation in  [Asian Conference on Computer Vision](https://accv2022.org/en/default.asp) (ACCV 22')
+- **Jun. 30, 2023** &nbsp; — Graduated with a Master's degree from **Tongji University** 🎓
 
-- *2022 Sep.17*: &nbsp; Our paper [*3D Pose Based Feedback for Physical Exercises*](https://senakicir.github.io/projects/exercise_feedback) is accepted by ACCV 2022.
+- **Dec. 4–8, 2022** &nbsp; — Virtually attended the [Asian Conference on Computer Vision (ACCV 2022)](https://accv2022.org/en/default.asp).
 
-- *2022 Sep.16*: &nbsp; Take the **IELTS Academic** test and the final score is **7.0**(Listening 7.0, Reading 8.0, Writing 6.0, Speaking 6.5).  
-  
-- *2022 Aug.01 - Sep.15*: &nbsp; Do a internship related to Virtual Reality Experiments at [the Immersive Interaction Research Group](https://www.epfl.ch/labs/iig/) (IIG) leb by  [Dr. Ronan Boulic](https://people.epfl.ch/104608?lang=en)(Senior scientist
-) at EPFL,supervised by [Mathias Delahaye](https://people.epfl.ch/mathias.delahaye?lang=en)(PhD Candidate).
+- **Sep. 17, 2022** &nbsp; — Our paper, [*3D Pose Based Feedback for Physical Exercises*](https://senakicir.github.io/projects/exercise_feedback), was accepted by **ACCV 2022** 🎉
 
-- *2022.02.17*: &nbsp; Arrive in Lausanne, Switzerland! Ready for an exciting journey at EPFL.
+- **Sep. 16, 2022** &nbsp; — Took the **IELTS Academic** test and scored **7.0** overall  
+  *(Listening: 7.0, Reading: 8.0, Writing: 6.0, Speaking: 6.5)*
+
+- **Aug. 1 – Sep. 15, 2022** &nbsp; — Completed a VR-related internship at the [Immersive Interaction Group (IIG)](https://www.epfl.ch/labs/iig/), EPFL.  
+  Supervised by [Mathias Delahaye](https://people.epfl.ch/mathias.delahaye?lang=en) (Ph.D. candidate) and [Dr. Ronan Boulic](https://people.epfl.ch/104608?lang=en) (Senior Scientist).
+
+- **Feb. 17, 2022** &nbsp; — Arrived in **Lausanne, Switzerland** 🇨🇭 — began exchange study at **EPFL**.

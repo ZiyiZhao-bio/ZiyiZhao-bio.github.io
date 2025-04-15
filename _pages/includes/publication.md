@@ -1,4 +1,4 @@
-# Publications
+## Publications
 
 <!-- Google Scholar Badge -->
 <p>
