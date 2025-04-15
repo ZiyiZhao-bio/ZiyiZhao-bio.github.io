@@ -7,7 +7,7 @@ main:
     url: "/#news"
 
   - title: "Education"
-    url: "/#🎓 Education"
+    url: "/#education"
 
   - title: "Publication"
     url: "/#publications"

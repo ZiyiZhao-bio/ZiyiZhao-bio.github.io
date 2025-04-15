@@ -1,4 +1,4 @@
-## 🎓 Education
+## Education
 
 - **Ph.D.**, University of Technology Sydney (UTS), *Sydney, Australia*  
   *Dec. 2023 – Jun. 2027*
