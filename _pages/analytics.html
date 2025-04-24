@@ -5,29 +5,13 @@ permalink: /analytics/
 author_profile: true
 ---
 
-<!-- 确保 Chart.js 加载 -->
-<script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
-
 <div class="analytics-dashboard">
-  <div class="chart-container">
-    <h2>Visitors Over Time</h2>
-    <canvas id="visitorsChart"></canvas>
-  </div>
+  <h2>实时访问统计</h2>
+  <p>本页面显示网站的访问统计数据，包括访问人数、访问地理位置和浏览器信息等。</p>
   
-  <div class="chart-container">
-    <h2>Popular Pages</h2>
-    <canvas id="pagesChart"></canvas>
-  </div>
-
-  <div class="stats-container">
-    <div class="stat-box">
-      <h3>Total Visits</h3>
-      <div id="totalVisits">Loading...</div>
-    </div>
-    <div class="stat-box">
-      <h3>Today's Visits</h3>
-      <div id="todayVisits">Loading...</div>
-    </div>
+  <div class="goatcounter-embed">
+    <!-- GoatCounter 统计嵌入 -->
+    <iframe src="https://1124.goatcounter.com/counter/detailed" width="100%" height="700" frameborder="0"></iframe>
   </div>
 </div>
 
@@ -36,127 +20,21 @@ author_profile: true
   padding: 20px;
 }
 
-.chart-container {
-  margin-bottom: 30px;
+.analytics-dashboard h2 {
+  margin-bottom: 15px;
+}
+
+.goatcounter-embed {
   background: white;
-  padding: 20px;
+  padding: 15px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-top: 20px;
 }
 
-.stats-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-  margin-top: 30px;
+.goatcounter-embed iframe {
+  width: 100%;
+  min-height: 700px;
+  border: none;
 }
-
-.stat-box {
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  text-align: center;
-}
-
-.stat-box h3 {
-  margin: 0 0 10px 0;
-  color: #333;
-}
-
-canvas {
-  max-height: 400px;
-}
-</style>
-
-<script>
-// 确保 Chart.js 已加载
-window.onload = function() {
-  if (typeof Chart === 'undefined') {
-    console.error('Chart.js not loaded');
-    return;
-  }
-
-  // 访问者趋势图
-  const visitorsCtx = document.getElementById('visitorsChart').getContext('2d');
-  const visitorsChart = new Chart(visitorsCtx, {
-    type: 'line',
-    data: {
-      labels: [], // 将由API数据填充
-      datasets: [{
-        label: 'Daily Visitors',
-        data: [], // 将由API数据填充
-        borderColor: 'rgb(75, 192, 192)',
-        tension: 0.1
-      }]
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false
-    }
-  });
-
-  // 页面访问统计图
-  const pagesCtx = document.getElementById('pagesChart').getContext('2d');
-  const pagesChart = new Chart(pagesCtx, {
-    type: 'bar',
-    data: {
-      labels: [], // 将由API数据填充
-      datasets: [{
-        label: 'Page Views',
-        data: [], // 将由API数据填充
-        backgroundColor: 'rgba(54, 162, 235, 0.5)'
-      }]
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false
-    }
-  });
-
-  // 从GoatCounter获取数据
-  async function fetchAnalytics() {
-    try {
-      // 使用 count.js 提供的方法获取数据
-      if (typeof window.goatcounter !== 'undefined' && window.goatcounter.count) {
-        const data = await window.goatcounter.count();
-        
-        // 更新图表数据
-        updateCharts(data);
-        
-        // 更新统计数字
-        if (data && data.count) {
-          document.getElementById('totalVisits').textContent = data.count.total || '0';
-          document.getElementById('todayVisits').textContent = data.count.day || '0';
-        }
-      } else {
-        console.error('GoatCounter not initialized');
-      }
-    } catch (error) {
-      console.error('Error fetching analytics:', error);
-    }
-  }
-
-  function updateCharts(data) {
-    if (!data || !data.count) return;
-
-    // 更新访问者趋势图
-    const visits = data.count.visits || [];
-    visitorsChart.data.labels = visits.map(v => new Date(v.date).toLocaleDateString());
-    visitorsChart.data.datasets[0].data = visits.map(v => v.count);
-    visitorsChart.update();
-
-    // 更新页面访问统计图
-    const pages = data.count.pages || [];
-    pagesChart.data.labels = pages.map(p => p.path || 'Unknown');
-    pagesChart.data.datasets[0].data = pages.map(p => p.count);
-    pagesChart.update();
-  }
-
-  // 初始加载
-  setTimeout(fetchAnalytics, 1000); // 等待 GoatCounter 初始化
-  
-  // 每5分钟更新一次数据
-  setInterval(fetchAnalytics, 5 * 60 * 1000);
-};
-</script> 
+</style> 
