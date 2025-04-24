@@ -5,6 +5,9 @@ permalink: /analytics/
 author_profile: true
 ---
 
+<!-- 确保 Chart.js 加载 -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+
 <div class="analytics-dashboard">
   <div class="chart-container">
     <h2>Visitors Over Time</h2>
@@ -67,7 +70,13 @@ canvas {
 </style>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
+// 确保 Chart.js 已加载
+window.onload = function() {
+  if (typeof Chart === 'undefined') {
+    console.error('Chart.js not loaded');
+    return;
+  }
+
   // 访问者趋势图
   const visitorsCtx = document.getElementById('visitorsChart').getContext('2d');
   const visitorsChart = new Chart(visitorsCtx, {
@@ -143,5 +152,5 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // 每5分钟更新一次数据
   setInterval(fetchAnalytics, 5 * 60 * 1000);
-});
+};
 </script> 
