@@ -114,41 +114,47 @@ window.onload = function() {
     }
   });
 
-  // 从GoatCounter API获取数据
+  // 从GoatCounter获取数据
   async function fetchAnalytics() {
     try {
-      const response = await fetch('https://1124.goatcounter.com/api/v0/stats/hits?period=day');
-      const data = await response.json();
-      
-      // 更新图表数据
-      updateCharts(data);
-      
-      // 更新统计数字
-      document.getElementById('totalVisits').textContent = data.total || '0';
-      document.getElementById('todayVisits').textContent = data.today || '0';
+      // 使用 count.js 提供的方法获取数据
+      if (typeof window.goatcounter !== 'undefined' && window.goatcounter.count) {
+        const data = await window.goatcounter.count();
+        
+        // 更新图表数据
+        updateCharts(data);
+        
+        // 更新统计数字
+        if (data && data.count) {
+          document.getElementById('totalVisits').textContent = data.count.total || '0';
+          document.getElementById('todayVisits').textContent = data.count.day || '0';
+        }
+      } else {
+        console.error('GoatCounter not initialized');
+      }
     } catch (error) {
       console.error('Error fetching analytics:', error);
     }
   }
 
   function updateCharts(data) {
-    // 这里添加处理数据和更新图表的逻辑
-    // 示例数据处理方式，需要根据实际API返回的数据结构调整
-    if (data.visits) {
-      visitorsChart.data.labels = data.visits.map(v => v.date);
-      visitorsChart.data.datasets[0].data = data.visits.map(v => v.count);
-      visitorsChart.update();
-    }
+    if (!data || !data.count) return;
 
-    if (data.pages) {
-      pagesChart.data.labels = data.pages.map(p => p.path);
-      pagesChart.data.datasets[0].data = data.pages.map(p => p.count);
-      pagesChart.update();
-    }
+    // 更新访问者趋势图
+    const visits = data.count.visits || [];
+    visitorsChart.data.labels = visits.map(v => new Date(v.date).toLocaleDateString());
+    visitorsChart.data.datasets[0].data = visits.map(v => v.count);
+    visitorsChart.update();
+
+    // 更新页面访问统计图
+    const pages = data.count.pages || [];
+    pagesChart.data.labels = pages.map(p => p.path || 'Unknown');
+    pagesChart.data.datasets[0].data = pages.map(p => p.count);
+    pagesChart.update();
   }
 
   // 初始加载
-  fetchAnalytics();
+  setTimeout(fetchAnalytics, 1000); // 等待 GoatCounter 初始化
   
   // 每5分钟更新一次数据
   setInterval(fetchAnalytics, 5 * 60 * 1000);
