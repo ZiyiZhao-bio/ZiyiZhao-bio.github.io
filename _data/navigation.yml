@@ -12,6 +12,9 @@ main:
   - title: "Publication"
     url: "/#publications"
 
+  # - title: "Analytics"
+  #   url: "/analytics/"
+
   # - title: "Projects"
   #   url: "/#-project"
 
