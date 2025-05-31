@@ -7,11 +7,9 @@
 
 - **Jun. 30, 2023** &nbsp; — Graduated with a Master's degree from **Tongji University** 🎓
 
-- **Dec. 4–8, 2022** &nbsp; — Virtually attended the [Asian Conference on Computer Vision (ACCV 2022)](https://accv2022.org/en/default.asp).
-
 - **Sep. 17, 2022** &nbsp; — Our paper, [*3D Pose Based Feedback for Physical Exercises*](https://senakicir.github.io/projects/exercise_feedback), was accepted by **ACCV 2022** 🎉
 
-- **Sep. 16, 2022** &nbsp; — Took the **IELTS Academic** test and scored **7.0** overall  
+- **Sep. 16, 2022** &nbsp; — **IELTS Academic** test and scored **7.0** overall  
   *(Listening: 7.0, Reading: 8.0, Writing: 6.0, Speaking: 6.5)*
 
 - **Aug. 1 – Sep. 15, 2022** &nbsp; — Completed a VR-related internship at the [Immersive Interaction Group (IIG)](https://www.epfl.ch/labs/iig/), EPFL.  
