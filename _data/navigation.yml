@@ -12,11 +12,15 @@ main:
   - title: "Publication"
     url: "/#publications"
 
-  - title: "Service"
-    url: "/#service/"
+  - title: "Teaching"
+    url: "/#teaching"
+
+  - title: "Peer Review"
+    url: "/#peerReview"
+    
 
   - title: "MISC"
-    url: "/#misc/"
+    url: "/#misc"
     
   # - title: "Analytics"
   #   url: "/analytics/"

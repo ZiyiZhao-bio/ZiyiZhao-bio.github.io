@@ -24,7 +24,10 @@ redirect_from:
 {% include_relative includes/publication.md %}
 
 <!-- 📚  Service -->
-{% include_relative includes/service.md %}
+{% include_relative includes/teaching.md %}
+
+<!-- 📚  Service -->
+{% include_relative includes/peerReview.md %}
 
 <!-- 📚  MISC -->
 {% include_relative includes/misc.md %}
