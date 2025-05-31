@@ -23,6 +23,9 @@ redirect_from:
 <!-- 📚 学术成果 -->
 {% include_relative includes/publication.md %}
 
+<!-- 📚  Service -->
+{% include_relative includes/service.md %}
+
 ---
 
-<small class="last-updated">🕒 Last updated: Apr 2025</small>
+<small class="last-updated">🕒 Last updated: May 2025</small>

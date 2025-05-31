@@ -12,6 +12,10 @@ main:
   - title: "Publication"
     url: "/#publications"
 
+  - title: "Service"
+    url: "/service/"
+
+    
   # - title: "Analytics"
   #   url: "/analytics/"
 
