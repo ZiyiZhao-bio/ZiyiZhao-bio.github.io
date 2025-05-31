@@ -43,7 +43,6 @@
 [A Review of Intelligent Music Generation Systems](https://arxiv.org/pdf/2211.09124.pdf)  
 **Ziyi Zhao**, Hanwei Liu, Song Li, Junwei Pang, Maoqing Zhang, Yi Qin, Lei Wang, Qidi Wu  
 **Cited by: 40** • *Neural Computing and Applications*, 2024  
-**SCI一区，IF 4.5，ESI工程类Top 3%**
 
 > A comprehensive review of deep learning-based music generation systems, analyzing differences between Eastern and Western composition styles and surveying SOTA architectures.
 
