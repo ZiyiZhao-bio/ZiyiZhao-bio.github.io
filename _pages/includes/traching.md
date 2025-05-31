@@ -1,4 +1,4 @@
-## 👨‍🏫 Teaching Experience
+## Teaching Experience
 
 - **Teaching Assistant**, [42174 - AI Studio](https://coursehandbook.uts.edu.au/subject/2025/42174), University of Technology Sydney  
   *Feb 2025 – May 2025*  

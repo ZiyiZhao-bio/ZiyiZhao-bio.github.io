@@ -1,5 +1,5 @@
 
-## 📑 Peer Review
+## Peer Review
 
 - **Reviewer**, [*Applied Intelligence*](https://link.springer.com/journal/10489)  
   Since Oct 2023 — Focus: Machine Learning Applications, Healthcare AI
