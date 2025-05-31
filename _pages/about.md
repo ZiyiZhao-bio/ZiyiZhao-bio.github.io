@@ -26,6 +26,8 @@ redirect_from:
 <!-- 📚  Service -->
 {% include_relative includes/service.md %}
 
+<!-- 📚  MISC -->
+{% include_relative includes/misc.md %}
 ---
 
 <small class="last-updated">🕒 Last updated: May 2025</small>
